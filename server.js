@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-const DOMAIN ='https://car-store-ykzy.onrender.com';
+const DOMAIN ='https://car-store-zoka.onrender.com';
 
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
